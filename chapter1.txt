@@ -1,1 +1,13 @@
 Chapter 1
+
+
+git init
+git branch -m main
+git add .
+git commit -m "ilk yorum"
+git remote add origin https://github.com/ali-ay/gitproje.git
+git push -u origin main
+git pull origin main --allow-unrelated-histories
+
+
+git pull origin main --allow-unrelated-histories
